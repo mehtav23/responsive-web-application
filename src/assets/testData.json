@@ -1,0 +1,52 @@
+{
+    "data" : [
+        {   
+            "tariffName": "Plan 1",
+            "download": 12,
+            "speedUnit": "Mbps",
+            "upload": 10,
+            "benefits": [
+                {"id": 1, "description": "Fast Internet"},
+                {"id": 2, "description": "Free night downloads"},
+                {"id": 3, "description": "India calling free"}
+            ],
+            "price": 100
+        },
+        {   
+            "tariffName": "Plan 2",
+            "download": 10,
+            "speedUnit": "Mbps",
+            "upload": 8,
+            "benefits": [
+                {"id": 1, "description": "Fast Internet"},
+                {"id": 2, "description": "Free night downloads"},
+                {"id": 3, "description": "India calling free"}
+            ],
+            "price": 75
+        },
+        {   
+            "tariffName": "Plan 3",
+            "download": 8,
+            "speedUnit": "Mbps",
+            "upload": 10,
+            "benefits": [
+                {"id": 1, "description": "Fast Internet"},
+                {"id": 2, "description": "Free night downloads"},
+                {"id": 3, "description": "India calling free"}
+            ],
+            "price": 50
+        },
+        {   
+            "tariffName": "Plan 4",
+            "download": 6,
+            "speedUnit": "Mbps",
+            "upload": 4,
+            "benefits": [
+                {"id": 1, "description": "Fast Internet"},
+                {"id": 2, "description": "Free night downloads"},
+                {"id": 3, "description": "India calling free"}
+            ],
+            "price": 125
+        }
+    ]
+}

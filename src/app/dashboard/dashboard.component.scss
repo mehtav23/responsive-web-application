@@ -1,0 +1,123 @@
+.container-top {
+    margin-top: 3%;
+}
+
+.my-card {
+    display: flex;
+    border: 1px solid black;
+    height: 30%;
+    margin-top: 2%;
+
+    &__number-container {
+        position: relative;
+        border-right: 1px solid black;
+        width: 2% !important;
+    }
+    &__number {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+    }
+
+    &__name {
+        width: 24%;
+        position: relative;
+    }
+
+    &__name-text {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    &__speed {
+        width: 24%;
+        font-size: 13px;
+        margin: 10px 0;
+    }
+
+    &__speed-container {
+        display: flex;
+        cursor: pointer;
+    }
+    
+    &__speed-icon {
+        border: 1px solid black;
+        width: 20%;
+        text-align: center;
+    }
+
+    &__speed-info {
+        cursor: pointer;
+        border: 1px solid black;
+        width: 40%;
+        text-align: center;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    &__benefit-info {
+        width: 24%;
+        margin-top: 1%;
+    }
+
+    &__price-info {
+        width: 26%;
+        margin-top: 1%;
+        text-align: right;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    &__tarrif-button {
+        margin-top: 1%;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 991px) { 
+    // .card-number {
+    //     border-right: 1px solid black ;
+    // }
+        .hide-elem-tab {
+            display: none;
+        }
+        .my-card > div {
+            width: 33%;
+        }
+
+        .no-border-tab {
+            border: none;
+        }
+
+        .reset-top-position {
+            top: 0;
+        }
+}
+
+@media only screen and (max-width: 767px) { 
+    // .card-number {
+    //     border-right: 1px solid black ;
+    // }
+        .hide-elem-mobile {
+            display: none;
+        }
+
+        .no-border-mobile {
+            border: none;
+        }
+        .flex-direction-column {
+            flex-direction: row;
+        }
+
+        .price-button {
+            margin-left: 5px;
+            width: 10%;
+            height: 25%;
+        }
+}
